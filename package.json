@@ -1,0 +1,23 @@
+{
+  "name": "repositories-proxy",
+  "version": "1.0.0",
+  "description": "repositories proxy by cloudflare workers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "keywords": [
+    "repositories",
+    "docker",
+    "proxy",
+    "cloudflare",
+    "work"
+  ],
+  "author": "whg517",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "wrangler": "^3.61.0"
+  }
+}
