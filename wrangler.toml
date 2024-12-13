@@ -1,6 +1,13 @@
-name = "repositories proxy"
-main = "src/main.ts"
+name = "oci"
+main = "src/index.ts"
 compatibility_date = "2023-08-23"
 
 [dev]
 ip = "0.0.0.0"
+port = 80
+
+[env.development]
+
+[env.development.vars]
+DOMAIN = "example.com"
+ENVIRONMENT = "development"

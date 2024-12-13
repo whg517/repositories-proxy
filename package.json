@@ -1,10 +1,10 @@
 {
-  "name": "repositories-proxy",
+  "name": "registry-proxy",
   "version": "1.0.0",
   "description": "repositories proxy by cloudflare workers",
   "main": "index.js",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "wrangler dev -e development",
     "deploy": "wrangler publish"
   },
   "keywords": [
@@ -17,7 +17,8 @@
   "author": "whg517",
   "license": "MIT",
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241205.0",
     "typescript": "^5.5.2",
-    "wrangler": "^3.61.0"
+    "wrangler": "^3.95.0"
   }
 }

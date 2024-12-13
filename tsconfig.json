@@ -1,8 +1,21 @@
 {
-    "files": ["src/main.ts"],
-    "compilerOptions": {
-      "noImplicitAny": true,
-      "target": "ES2017",
-      "lib": ["ES2017", "DOM", "WebWorker"]
-    }
+  "files": ["src/index.ts"],
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "lib": ["ES2020"],
+    "types": ["@cloudflare/workers-types"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   }
+}
